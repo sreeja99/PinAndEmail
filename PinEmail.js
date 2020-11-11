@@ -9,3 +9,8 @@ console.log(pincode2);
 //uc3
 let pincode3=pincodePattern.test(400088B);
 console.log(pincode3);
+//email
+let email1=emailPattern.test("abc@yahoo.com");
+let email2=emailPattern.test("abc+100@gmail.com");
+//invalid test cases
+let email3=emailPattern.test("abc.@gmailcom");
